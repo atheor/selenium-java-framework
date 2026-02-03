@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Test Automation Suite" parallel="tests" thread-count="3">
+    
+    <test name="Saucedemo UI Tests" preserve-order="true">
+        <classes>
+            <class name="com.automation.examples.tests.SauceDemoTest"/>
+        </classes>
+    </test>
+    
+    <test name="PetStore API Tests" preserve-order="true">
+        <classes>
+            <class name="com.automation.examples.api.PetStoreAPITest"/>
+        </classes>
+    </test>
+    
+    <!-- Add more test classes here -->
+    
+</suite>

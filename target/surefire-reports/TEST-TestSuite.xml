@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="11.086" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="/Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/test-classes:/Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/classes:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/mitsram/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/mitsram/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/mitsram/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/mitsram/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/mitsram/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mitsram/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/mitsram/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/mitsram/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/mitsram/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/mitsram/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/mitsram/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/mitsram/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/mitsram/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/mitsram/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/mitsram/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/mitsram/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/mitsram/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/mitsram/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/mitsram/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/mitsram/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/mitsram/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/mitsram/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/mitsram/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/mitsram/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/mitsram/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/mitsram/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/mitsram/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/mitsram/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/mitsram/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/mitsram/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/mitsram/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/mitsram/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/mitsram/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/mitsram/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/mitsram/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/mitsram/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/mitsram/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:/Users/mitsram/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/Users/mitsram/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/Users/mitsram/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar:/Users/mitsram/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/mitsram/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/mitsram/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/mitsram/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/mitsram/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/mitsram/.m2/repository/org/assertj/assertj-core/3.25.2/assertj-core-3.25.2.jar:/Users/mitsram/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/mitsram/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/surefire/surefirebooter-20260204005402549_3.jar /Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/surefire 2026-02-04T00-54-02_517-jvmRun1 surefire-20260204005402549_1tmp surefire_0-20260204005402549_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/test-classes:/Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/classes:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/Users/mitsram/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/Users/mitsram/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/Users/mitsram/.m2/repository/com/google/guava/guava/33.0.0-jre/guava-33.0.0-jre.jar:/Users/mitsram/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/mitsram/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/mitsram/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/mitsram/.m2/repository/org/checkerframework/checker-qual/3.41.0/checker-qual-3.41.0.jar:/Users/mitsram/.m2/repository/com/google/errorprone/error_prone_annotations/2.23.0/error_prone_annotations-2.23.0.jar:/Users/mitsram/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/mitsram/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/Users/mitsram/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/Users/mitsram/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/Users/mitsram/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/Users/mitsram/.m2/repository/io/github/bonigarcia/webdrivermanager/5.7.0/webdrivermanager-5.7.0.jar:/Users/mitsram/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/mitsram/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java/3.3.5/docker-java-3.3.5.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-core/3.3.5/docker-java-core-3.3.5.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-api/3.3.5/docker-java-api-3.3.5.jar:/Users/mitsram/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/mitsram/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/mitsram/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/mitsram/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.5/docker-java-transport-httpclient5-3.3.5.jar:/Users/mitsram/.m2/repository/com/github/docker-java/docker-java-transport/3.3.5/docker-java-transport-3.3.5.jar:/Users/mitsram/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/mitsram/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/mitsram/.m2/repository/org/apache/commons/commons-compress/1.26.0/commons-compress-1.26.0.jar:/Users/mitsram/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/mitsram/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/mitsram/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/mitsram/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/mitsram/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/mitsram/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/mitsram/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/mitsram/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/mitsram/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/mitsram/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/mitsram/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mitsram/.m2/repository/io/cucumber/cucumber-testng/7.15.0/cucumber-testng-7.15.0.jar:/Users/mitsram/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/mitsram/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/mitsram/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/mitsram/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/mitsram/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/mitsram/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:/Users/mitsram/.m2/repository/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar:/Users/mitsram/.m2/repository/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar:/Users/mitsram/.m2/repository/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar:/Users/mitsram/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/mitsram/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/mitsram/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/mitsram/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/mitsram/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/mitsram/.m2/repository/org/assertj/assertj-core/3.25.2/assertj-core-3.25.2.jar:/Users/mitsram/.m2/repository/net/bytebuddy/byte-buddy/1.14.11/byte-buddy-1.14.11.jar:/Users/mitsram/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mitsram"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mitsram/Workspace/Github/atheor/selenium-java-framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/mitsram/Workspace/Github/atheor/selenium-java-framework/target/surefire/surefirebooter-20260204005402549_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="mitsram"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/mitsram/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/l6/ggdy2bjx7_l83r0kp22_mb2c0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/mitsram/Workspace/Github/atheor/selenium-java-framework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mitsram/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testSuccessfulLogin" classname="com.automation.examples.tests.SauceDemoTest" time="0.936">
+    <system-out><![CDATA[2026-02-04 00:54:03.004 [main] INFO  com.automation.core.config.ConfigManager - Configuration loaded successfully
+2026-02-04 00:54:03.054 [main] INFO  com.automation.tests.BaseTest - Reporting configured
+2026-02-04 00:54:03.055 [main] INFO  com.automation.tests.BaseTest - Test suite started
+2026-02-04 00:54:03.065 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting test class: SauceDemoTest
+2026-02-04 00:54:03.065 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test class: PetStoreAPITest
+2026-02-04 00:54:03.069 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting test: testSuccessfulLogin
+2026-02-04 00:54:03.071 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:03.137 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - API Client initialized with base URL: https://api.example.com
+2026-02-04 00:54:03.137 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Base URL updated to: https://petstore.swagger.io/v2
+2026-02-04 00:54:03.138 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testCreatePet
+2026-02-04 00:54:03.138 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:03.209 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:03.209 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:03.217 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:03.217 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:04.440 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:04.440 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:04.443 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Creating new pet with ID: 1770119643137
+2026-02-04 00:54:04.449 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting successful login test
+2026-02-04 00:54:04.450 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Navigating to Saucedemo login page
+2026-02-04 00:54:04.463 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - POST request to: https://petstore.swagger.io/v2/pet
+2026-02-04 00:54:05.032 [TestNG-tests-1] INFO  com.automation.core.actions.WebActions - Navigated to URL: https://www.saucedemo.com
+2026-02-04 00:54:05.032 [TestNG-tests-1] INFO  com.automation.pages.BasePage - Navigated to: https://www.saucedemo.com
+2026-02-04 00:54:05.032 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying login page is loaded
+2026-02-04 00:54:05.069 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Logging in with username: standard_user
+2026-02-04 00:54:05.175 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'standard_user' into element 'Username Field'
+2026-02-04 00:54:05.260 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'secret_sauce' into element 'Password Field'
+2026-02-04 00:54:05.307 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Clicked on element 'Login Button'
+2026-02-04 00:54:05.307 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying successful login
+2026-02-04 00:54:05.360 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Getting products page title
+2026-02-04 00:54:05.375 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Login test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 04, 2026 12:54:04 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testInvalidLogin" classname="com.automation.examples.tests.SauceDemoTest" time="0.89">
+    <system-out><![CDATA[2026-02-04 00:54:06.681 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Test passed: testGetPet
+2026-02-04 00:54:06.767 [TestNG-tests-2] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 38
+2026-02-04 00:54:06.768 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finished test: testGetPet
+2026-02-04 00:54:06.768 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testUpdatePet
+2026-02-04 00:54:06.769 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:06.772 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:06.774 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:06.978 [TestNG-tests-1] INFO  com.automation.core.actions.WebActions - Navigated to URL: https://www.saucedemo.com
+2026-02-04 00:54:06.981 [TestNG-tests-1] INFO  com.automation.pages.BasePage - Navigated to: https://www.saucedemo.com
+2026-02-04 00:54:06.985 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying login page is loaded
+2026-02-04 00:54:07.006 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Logging in with username: invalid_user
+2026-02-04 00:54:07.175 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'invalid_user' into element 'Username Field'
+2026-02-04 00:54:07.254 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'wrong_password' into element 'Password Field'
+2026-02-04 00:54:07.300 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Clicked on element 'Login Button'
+2026-02-04 00:54:07.300 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Checking if error message is displayed
+2026-02-04 00:54:07.310 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Getting login error message
+2026-02-04 00:54:07.353 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Invalid login test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLockedOutUser" classname="com.automation.examples.tests.SauceDemoTest" time="0.299">
+    <system-out><![CDATA[2026-02-04 00:54:07.960 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Test passed: testUpdatePet
+2026-02-04 00:54:08.035 [TestNG-tests-2] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 38
+2026-02-04 00:54:08.035 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finished test: testUpdatePet
+2026-02-04 00:54:08.036 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testFindPetsByStatus
+2026-02-04 00:54:08.036 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:08.039 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:08.041 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:08.334 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:08.335 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting locked out user test
+2026-02-04 00:54:08.336 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Navigating to Saucedemo login page
+2026-02-04 00:54:08.872 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:08.873 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finding pets by status: available
+2026-02-04 00:54:08.873 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - GET request to: https://petstore.swagger.io/v2/pet/findByStatus?status=available
+2026-02-04 00:54:08.923 [TestNG-tests-1] INFO  com.automation.core.actions.WebActions - Navigated to URL: https://www.saucedemo.com
+2026-02-04 00:54:08.925 [TestNG-tests-1] INFO  com.automation.pages.BasePage - Navigated to: https://www.saucedemo.com
+2026-02-04 00:54:08.925 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying login page is loaded
+2026-02-04 00:54:08.945 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Logging in with username: locked_out_user
+2026-02-04 00:54:09.039 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'locked_out_user' into element 'Username Field'
+2026-02-04 00:54:09.116 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'secret_sauce' into element 'Password Field'
+2026-02-04 00:54:09.151 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Clicked on element 'Login Button'
+2026-02-04 00:54:09.151 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Checking if error message is displayed
+2026-02-04 00:54:09.159 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Getting login error message
+2026-02-04 00:54:09.171 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Locked out user test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testProductCount" classname="com.automation.examples.tests.SauceDemoTest" time="0.528">
+    <system-out><![CDATA[2026-02-04 00:54:11.030 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Test passed: testDeletePet
+2026-02-04 00:54:11.101 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Clicked on element 'Login Button'
+2026-02-04 00:54:11.101 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Getting product count
+2026-02-04 00:54:11.120 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Product count: 6
+]]></system-out>
+  </testcase>
+  <testcase name="testAddToCart" classname="com.automation.examples.tests.SauceDemoTest" time="0.932">
+    <system-out><![CDATA[2026-02-04 00:54:12.253 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Test passed: testGetNonExistentPet
+2026-02-04 00:54:12.336 [TestNG-tests-2] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 38
+2026-02-04 00:54:12.336 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finished test: testGetNonExistentPet
+2026-02-04 00:54:12.337 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testGetStoreInventory
+2026-02-04 00:54:12.337 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:12.340 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:12.342 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:12.690 [TestNG-tests-1] INFO  com.automation.core.actions.WebActions - Navigated to URL: https://www.saucedemo.com
+2026-02-04 00:54:12.695 [TestNG-tests-1] INFO  com.automation.pages.BasePage - Navigated to: https://www.saucedemo.com
+2026-02-04 00:54:12.700 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying login page is loaded
+2026-02-04 00:54:12.725 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Logging in with username: standard_user
+2026-02-04 00:54:12.844 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'standard_user' into element 'Username Field'
+2026-02-04 00:54:12.883 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'secret_sauce' into element 'Password Field'
+2026-02-04 00:54:12.974 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Clicked on element 'Login Button'
+2026-02-04 00:54:12.974 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Adding first product to cart
+2026-02-04 00:54:13.015 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Clicked on element 'First Product Add Button'
+2026-02-04 00:54:13.015 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying cart badge is displayed
+2026-02-04 00:54:13.024 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Getting cart item count
+2026-02-04 00:54:13.038 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Add to cart test completed successfully
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCreatePet" classname="com.automation.examples.api.PetStoreAPITest" time="1.019">
+    <system-out><![CDATA[2026-02-04 00:54:05.377 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Test passed: testSuccessfulLogin
+2026-02-04 00:54:05.459 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 200, Body length: 146
+2026-02-04 00:54:05.460 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Pet created successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPet" classname="com.automation.examples.api.PetStoreAPITest" time="0.217">
+    <system-out><![CDATA[2026-02-04 00:54:05.461 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Test passed: testCreatePet
+2026-02-04 00:54:05.468 [TestNG-tests-1] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 37
+2026-02-04 00:54:05.468 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Finished test: testSuccessfulLogin
+2026-02-04 00:54:05.469 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting test: testInvalidLogin
+2026-02-04 00:54:05.470 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:05.473 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:05.476 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:05.549 [TestNG-tests-2] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 38
+2026-02-04 00:54:05.549 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finished test: testCreatePet
+2026-02-04 00:54:05.551 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testGetPet
+2026-02-04 00:54:05.551 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:05.555 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:05.560 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:06.409 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:06.410 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting invalid login test
+2026-02-04 00:54:06.410 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Navigating to Saucedemo login page
+2026-02-04 00:54:06.463 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:06.465 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Getting pet with ID: 1770119643137
+2026-02-04 00:54:06.465 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - GET request to: https://petstore.swagger.io/v2/pet/1770119643137
+2026-02-04 00:54:06.680 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 200, Body length: 146
+2026-02-04 00:54:06.681 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Pet retrieved successfully
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 04, 2026 12:54:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testUpdatePet" classname="com.automation.examples.api.PetStoreAPITest" time="0.218">
+    <system-out><![CDATA[2026-02-04 00:54:07.354 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Test passed: testInvalidLogin
+2026-02-04 00:54:07.439 [TestNG-tests-1] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 37
+2026-02-04 00:54:07.439 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Finished test: testInvalidLogin
+2026-02-04 00:54:07.440 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting test: testLockedOutUser
+2026-02-04 00:54:07.440 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:07.442 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:07.444 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:07.741 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:07.742 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Updating pet with ID: 1770119643137
+2026-02-04 00:54:07.743 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - PUT request to: https://petstore.swagger.io/v2/pet
+2026-02-04 00:54:07.959 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 200, Body length: 157
+2026-02-04 00:54:07.960 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Pet updated successfully
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testFindPetsByStatus" classname="com.automation.examples.api.PetStoreAPITest" time="0.714">
+    <system-out><![CDATA[2026-02-04 00:54:09.172 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Test passed: testLockedOutUser
+2026-02-04 00:54:09.256 [TestNG-tests-1] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 37
+2026-02-04 00:54:09.256 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Finished test: testLockedOutUser
+2026-02-04 00:54:09.256 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting test: testProductCount
+2026-02-04 00:54:09.256 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:09.259 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:09.260 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:09.585 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 200, Body length: 85262
+2026-02-04 00:54:09.586 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Pets found by status successfully
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePet" classname="com.automation.examples.api.PetStoreAPITest" time="0.437">
+    <system-out><![CDATA[2026-02-04 00:54:09.587 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Test passed: testFindPetsByStatus
+2026-02-04 00:54:09.712 [TestNG-tests-2] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 38
+2026-02-04 00:54:09.712 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finished test: testFindPetsByStatus
+2026-02-04 00:54:09.713 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testDeletePet
+2026-02-04 00:54:09.713 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:09.717 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:09.726 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:10.268 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:10.269 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting product count test
+2026-02-04 00:54:10.269 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Navigating to Saucedemo login page
+2026-02-04 00:54:10.593 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:10.594 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Deleting pet with ID: 1770119643137
+2026-02-04 00:54:10.594 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - DELETE request to: https://petstore.swagger.io/v2/pet/1770119643137
+2026-02-04 00:54:10.810 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 200, Body length: 55
+2026-02-04 00:54:10.810 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Pet deleted successfully
+2026-02-04 00:54:10.811 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - GET request to: https://petstore.swagger.io/v2/pet/1770119643137
+2026-02-04 00:54:10.834 [TestNG-tests-1] INFO  com.automation.core.actions.WebActions - Navigated to URL: https://www.saucedemo.com
+2026-02-04 00:54:10.838 [TestNG-tests-1] INFO  com.automation.pages.BasePage - Navigated to: https://www.saucedemo.com
+2026-02-04 00:54:10.839 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Verifying login page is loaded
+2026-02-04 00:54:10.861 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Logging in with username: standard_user
+2026-02-04 00:54:10.945 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'standard_user' into element 'Username Field'
+2026-02-04 00:54:11.019 [TestNG-tests-1] INFO  com.automation.core.elements.Element - Typed 'secret_sauce' into element 'Password Field'
+2026-02-04 00:54:11.029 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 404, Body length: 51
+2026-02-04 00:54:11.029 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Verified pet no longer exists
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 04, 2026 12:54:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetNonExistentPet" classname="com.automation.examples.api.PetStoreAPITest" time="0.145">
+    <system-out><![CDATA[2026-02-04 00:54:11.121 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Test passed: testProductCount
+2026-02-04 00:54:11.125 [TestNG-tests-2] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 38
+2026-02-04 00:54:11.126 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Finished test: testDeletePet
+2026-02-04 00:54:11.126 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Starting test: testGetNonExistentPet
+2026-02-04 00:54:11.127 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:11.133 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:11.137 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:11.233 [TestNG-tests-1] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 37
+2026-02-04 00:54:11.233 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Finished test: testProductCount
+2026-02-04 00:54:11.233 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting test: testAddToCart
+2026-02-04 00:54:11.233 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Creating chrome driver instance
+2026-02-04 00:54:11.236 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 144.0.7559.109 (resolved driver for Chrome 144)
+2026-02-04 00:54:11.238 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/mitsram/.cache/selenium/chromedriver/mac-arm64/144.0.7559.109/chromedriver
+2026-02-04 00:54:12.036 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:12.036 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Attempting to get non-existent pet
+2026-02-04 00:54:12.036 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - GET request to: https://petstore.swagger.io/v2/pet/999999999
+2026-02-04 00:54:12.106 [TestNG-tests-1] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:12.107 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Starting add to cart test
+2026-02-04 00:54:12.107 [TestNG-tests-1] INFO  com.automation.workflows.BaseWorkflow - Workflow Step: Navigating to Saucedemo login page
+2026-02-04 00:54:12.252 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 404, Body length: 51
+2026-02-04 00:54:12.252 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - 404 error verified for non-existent pet
+]]></system-out>
+    <system-err><![CDATA[Feb 04, 2026 12:54:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Feb 04, 2026 12:54:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 144
+Feb 04, 2026 12:54:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 144.0.7559.110. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testGetStoreInventory" classname="com.automation.examples.api.PetStoreAPITest" time="0.219">
+    <system-out><![CDATA[2026-02-04 00:54:13.039 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Test passed: testAddToCart
+2026-02-04 00:54:13.124 [TestNG-tests-1] INFO  com.automation.core.browser.DriverManager - Driver quit successfully for thread: 37
+2026-02-04 00:54:13.124 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Finished test: testAddToCart
+2026-02-04 00:54:13.125 [TestNG-tests-1] INFO  com.automation.tests.BaseTest - Finished test class: SauceDemoTest
+2026-02-04 00:54:13.342 [TestNG-tests-2] INFO  com.automation.core.browser.DriverFactory - Driver configured successfully
+2026-02-04 00:54:13.343 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Getting store inventory
+2026-02-04 00:54:13.343 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - GET request to: https://petstore.swagger.io/v2/store/inventory
+2026-02-04 00:54:13.560 [TestNG-tests-2] INFO  com.automation.core.api.APIClient - Response received - Status: 200, Body length: 342
+2026-02-04 00:54:13.561 [TestNG-tests-2] INFO  com.automation.tests.BaseTest - Store inventory retrieved successfully
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,7 @@
+com/automation/examples/pages/ProductsPage.class
+com/automation/examples/stepdefinitions/LoginStepDefinitions.class
+com/automation/examples/workflows/LoginWorkflow.class
+com/automation/examples/api/PetStoreAPITest.class
+com/automation/examples/pages/LoginPage.class
+com/automation/examples/tests/SauceDemoTest.class
+com/automation/cucumber/CucumberRunner.class

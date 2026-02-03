@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-04T00:54:03 NZDT" name="Selenium Test Automation Suite" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="10585">
+    <groups>
+    </groups>
+    <test started-at="2026-02-04T00:54:03 NZDT" name="Saucedemo UI Tests" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="10068">
+      <class name="com.automation.examples.tests.SauceDemoTest">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:03 NZDT" name="setupClass" finished-at="2026-02-04T00:54:03 NZDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:03 NZDT" name="setupTest" finished-at="2026-02-04T00:54:04 NZDT" duration-ms="1373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.tests.SauceDemoTest.testSuccessfulLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:04 NZDT" name="testSuccessfulLogin" description="Verify successful login with valid credentials" finished-at="2026-02-04T00:54:05 NZDT" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:05 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:05 NZDT" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=SauceDemoTest.testSuccessfulLogin()[pri:1, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:05 NZDT" name="setupTest" finished-at="2026-02-04T00:54:06 NZDT" duration-ms="940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.tests.SauceDemoTest.testInvalidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testInvalidLogin()[pri:2, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:06 NZDT" name="testInvalidLogin" description="Verify login fails with invalid credentials" finished-at="2026-02-04T00:54:07 NZDT" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:07 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:07 NZDT" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=SauceDemoTest.testInvalidLogin()[pri:2, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:07 NZDT" name="setupTest" finished-at="2026-02-04T00:54:08 NZDT" duration-ms="895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.tests.SauceDemoTest.testLockedOutUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testLockedOutUser()[pri:3, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:08 NZDT" name="testLockedOutUser" description="Verify locked out user cannot login" finished-at="2026-02-04T00:54:09 NZDT" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:09 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:09 NZDT" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLockedOutUser status=SUCCESS method=SauceDemoTest.testLockedOutUser()[pri:3, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:09 NZDT" name="setupTest" finished-at="2026-02-04T00:54:10 NZDT" duration-ms="1012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.tests.SauceDemoTest.testProductCount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testProductCount()[pri:4, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:10 NZDT" name="testProductCount" description="Verify product count on products page" finished-at="2026-02-04T00:54:11 NZDT" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCount -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:11 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:11 NZDT" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductCount status=SUCCESS method=SauceDemoTest.testProductCount()[pri:4, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:11 NZDT" name="setupTest" finished-at="2026-02-04T00:54:12 NZDT" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.tests.SauceDemoTest.testAddToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testAddToCart()[pri:5, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:12 NZDT" name="testAddToCart" description="Verify adding product to cart" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:13 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddToCart status=SUCCESS method=SauceDemoTest.testAddToCart()[pri:5, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.examples.tests.SauceDemoTest@5d2a4eed]" started-at="2026-02-04T00:54:13 NZDT" name="tearDownClass" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.automation.examples.tests.SauceDemoTest -->
+    </test> <!-- Saucedemo UI Tests -->
+    <test started-at="2026-02-04T00:54:03 NZDT" name="PetStore API Tests" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="10585">
+      <class name="com.automation.examples.api.PetStoreAPITest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:03 NZDT" name="setupSuite" finished-at="2026-02-04T00:54:03 NZDT" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:03 NZDT" name="setupClass" finished-at="2026-02-04T00:54:03 NZDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method is-config="true" signature="setupAPI()[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:03 NZDT" name="setupAPI" finished-at="2026-02-04T00:54:03 NZDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAPI -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:03 NZDT" name="setupTest" finished-at="2026-02-04T00:54:04 NZDT" duration-ms="1303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testCreatePet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testCreatePet()[pri:1, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:04 NZDT" name="testCreatePet" description="Create a new pet in the store" finished-at="2026-02-04T00:54:05 NZDT" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:05 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:05 NZDT" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePet status=SUCCESS method=PetStoreAPITest.testCreatePet()[pri:1, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:05 NZDT" name="setupTest" finished-at="2026-02-04T00:54:06 NZDT" duration-ms="913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testGetPet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testGetPet()[pri:2, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:06 NZDT" name="testGetPet" description="Get pet by ID" finished-at="2026-02-04T00:54:06 NZDT" depends-on-methods="com.automation.examples.api.PetStoreAPITest.testCreatePet" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPet -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:06 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:06 NZDT" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPet status=SUCCESS method=PetStoreAPITest.testGetPet()[pri:2, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:06 NZDT" name="setupTest" finished-at="2026-02-04T00:54:07 NZDT" duration-ms="974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testUpdatePet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testUpdatePet()[pri:3, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:07 NZDT" name="testUpdatePet" description="Update pet information" finished-at="2026-02-04T00:54:07 NZDT" depends-on-methods="com.automation.examples.api.PetStoreAPITest.testGetPet" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:07 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:08 NZDT" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdatePet status=SUCCESS method=PetStoreAPITest.testUpdatePet()[pri:3, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:08 NZDT" name="setupTest" finished-at="2026-02-04T00:54:08 NZDT" duration-ms="838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testFindPetsByStatus()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testFindPetsByStatus()[pri:4, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:08 NZDT" name="testFindPetsByStatus" description="Find pets by status" finished-at="2026-02-04T00:54:09 NZDT" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindPetsByStatus -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:09 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:09 NZDT" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFindPetsByStatus status=SUCCESS method=PetStoreAPITest.testFindPetsByStatus()[pri:4, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:09 NZDT" name="setupTest" finished-at="2026-02-04T00:54:10 NZDT" duration-ms="881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testDeletePet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testDeletePet()[pri:5, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:10 NZDT" name="testDeletePet" description="Delete a pet" finished-at="2026-02-04T00:54:11 NZDT" depends-on-methods="com.automation.examples.api.PetStoreAPITest.testUpdatePet" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:11 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:11 NZDT" duration-ms="96" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeletePet status=SUCCESS method=PetStoreAPITest.testDeletePet()[pri:5, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:11 NZDT" name="setupTest" finished-at="2026-02-04T00:54:12 NZDT" duration-ms="910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testGetNonExistentPet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testGetNonExistentPet()[pri:6, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:12 NZDT" name="testGetNonExistentPet" description="Verify 404 for non-existent pet" finished-at="2026-02-04T00:54:12 NZDT" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetNonExistentPet -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:12 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:12 NZDT" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetNonExistentPet status=SUCCESS method=PetStoreAPITest.testGetNonExistentPet()[pri:6, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:12 NZDT" name="setupTest" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="1006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.automation.examples.api.PetStoreAPITest.testGetStoreInventory()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testGetStoreInventory()[pri:7, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:13 NZDT" name="testGetStoreInventory" description="Get store inventory" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStoreInventory -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:13 NZDT" name="tearDownTest" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetStoreInventory status=SUCCESS method=PetStoreAPITest.testGetStoreInventory()[pri:7, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:13 NZDT" name="tearDownClass" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.automation.examples.api.PetStoreAPITest@63b1d4fa]" started-at="2026-02-04T00:54:13 NZDT" name="tearDownSuite" finished-at="2026-02-04T00:54:13 NZDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.automation.examples.api.PetStoreAPITest -->
+    </test> <!-- PetStore API Tests -->
+  </suite> <!-- Selenium Test Automation Suite -->
+</testng-results>
